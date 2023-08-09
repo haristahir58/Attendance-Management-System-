@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #192a56;
+    padding: 20px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    transition: color 0.3s;
+    padding: 15px;
+    margin-right: 34px;
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: center;
+    }
+  
+    .nav-item {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  

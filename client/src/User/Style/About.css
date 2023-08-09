@@ -1,0 +1,244 @@
+/* About.css */
+
+/* Reset some default styles */
+/* body, html {
+  margin: 0;
+  padding: 0;
+} */
+
+/* Set a background color (optional) */
+body {
+  background-color: #f1f1f1;
+}
+
+.buttonLink {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+  left: 294px;
+  top: 21px;
+}
+
+
+.buttonLink2 {
+  display: inline-block;
+  padding: 15px 46px;
+  background-color: #94230a;
+  color: white;
+  border: none;
+  border-radius: 42px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 23px;
+  margin-left: 45px;
+}
+
+
+
+
+/* Styling for the file input container */
+.fileInputContainer {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  top: 176px;
+  padding: 4px;
+  left: 562px;
+}
+
+
+/* Styling for the actual file input element */
+.profile {
+  opacity: 0;
+width: 100%;
+height: 100%;
+position: absolute;
+cursor: pointer;
+border-radius: 72px;
+}
+
+/* Styling for the custom file input button */
+.customFileButton {
+  background-color: #434d57;
+  color: white;
+  padding: 8px 19px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.customFileButton:hover {
+  background-color: #0056b3; /* Change to your preferred button hover color */
+}
+
+
+
+.buttonLink:hover {
+  background-color: #0056b3; /* Change to your preferred button hover color */
+}
+
+/* Center the container vertically and horizontally */
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #fff; /* Optional background color */
+}
+
+.home-div {
+  text-align: center;
+}
+
+.pt-5 {
+  margin-top: 40px; /* Adjust the margin as needed */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.col-md-4{
+display: flex;
+justify-content: center;
+}
+
+/* Circular image styling */
+.emp-profile .col-md-4 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+
+
+
+
+/* Profile section styling */
+.profile-head {
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+text-align: center;
+}
+
+.profile-head h5 {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+.profile-head h6 {
+  font-size: 21px;
+  color: #666;
+}
+
+/* Additional styling for .profile-edit-btn */
+.profile-edit-btn {
+    position: relative;
+    bottom: 21px;
+left: 500px;
+padding: 10px 31px;
+font-size: 16px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s ease;
+  }
+
+  .handleFile input{
+    position: relative;
+bottom: 30px;
+left: 435px;
+padding: 10px 31px;
+font-size: 16px;
+
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+  }
+  
+  .profile-edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design for .profile-edit-btn */
+  @media (max-width: 768px) {
+    .profile-edit-btn {
+      position: static;
+      margin-top: 20px;
+    }
+  }
+
+/* Nav tabs styling */
+.nav.nav-tabs {
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 0;
+}
+
+
+
+.nav-link.active {
+  border-bottom: 3px solid #007bff;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Additional styling */
+.container.emp-profile {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.about-info .tab-content .tab-pane .row {
+  margin: 10px 0;
+}
+
+.about-info .tab-content .tab-pane .col-md-6 {
+  font-weight: bold;
+}
+
+.about-info .tab-content .tab-pane p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Optional additional styling */
+.container.emp-profile {
+  border: 1px solid #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .emp-profile .col-md-4 img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
