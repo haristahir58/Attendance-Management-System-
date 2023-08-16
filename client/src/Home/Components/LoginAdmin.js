@@ -29,7 +29,7 @@ const LoginAdmin = () => {
     }
     else{
       window.alert("Login Successfull")
-      navigate("/");
+      navigate("/admin/home");
     }
 
   }

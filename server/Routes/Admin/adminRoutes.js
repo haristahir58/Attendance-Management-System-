@@ -58,8 +58,9 @@ router.post('/admin/login', async (req, res) => {
 });
 
 router.get('/admin/logout', (req, res) => {
-  res.clearCookie('jwtoken');
-  res.json({ message: "Logout successful" });
+  res.clearCookie('jwtoken',{path:'/'});
+  res.json({ message: 'Logout successful' });
+  res.status(200).send("User Logout")
 });
 
 module.exports = router;

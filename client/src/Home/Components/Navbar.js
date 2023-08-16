@@ -26,12 +26,17 @@ const Navbar = () => {
 
       <li className="nav-item">
         <NavLink to={"/user/logout"} className="nav-link">
-          Logout
+          Logout User
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink to={"/admin/login"} className="nav-link">
           Login Admin
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink to={"/admin/logout"} className="nav-link">
+          Logout Admin
         </NavLink>
       </li>
 

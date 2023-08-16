@@ -4,7 +4,7 @@ const Users = require('../../Model/Users/userSchema')
 const attendanceSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Users', // Reference to the User model
+    ref: 'users', // Reference to the User model
     required: true,
   },
   date: {

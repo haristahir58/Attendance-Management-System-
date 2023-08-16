@@ -5,7 +5,7 @@ const Users = require('../../Model/Users/userSchema')
 const leaveRequestSchema = new mongoose.Schema({
     userId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Users', 
+        ref: 'users', 
         required: true,
       },
       fromDate: {

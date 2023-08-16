@@ -13,6 +13,9 @@ import MarkAttendence from './User/MarkAttendence';
 import LeaveRequest from './User/LeaveRequest';
 import ViewAttendence from './User/ViewAttendence';
 import AdminPanel from './Admin/AdminPanel';
+import LogoutAdmin from './Home/Components/LogoutAdmin';
+import UpdateAttend from './Admin/UpdateAttend';
+import LeaveRecords from './Admin/LeaveRecords';
 
 
 function App() {
@@ -22,7 +25,6 @@ function App() {
         <NavbarHome />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/admin/login" element={<LoginAdmin />} />
           <Route exact path="/user/login" element={<LoginUser />} />
           <Route exact path="/user/register" element={<Register />} />
           <Route exact path="/user/home" element={<UserHome/>} />
@@ -34,9 +36,14 @@ function App() {
           <Route exact path="/user/view-attendence" element={<ViewAttendence/>} />
           
           
+
+          <Route exact path="/admin/login" element={<LoginAdmin />} />
           <Route exact path="/admin/home" element={<AdminPanel/>} />
-
-
+          <Route exact path="/admin/leaves" element={<LeaveRecords/>} />
+          <Route exact path="/admin/attendances/:id" element={<UpdateAttend />} />
+          <Route exact path="/admin/logout" element={<LogoutAdmin/>} />
+  
+        
 
 
 
