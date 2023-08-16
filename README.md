@@ -22,12 +22,15 @@ View all the record of login students
 The admin can edit, add, and delete the students attendance
 Admin should be able to create a report of Users. FROM  and TO Dates which will show specific user attendance
 Leave Approval Modules. There should be proper count of Leaves , Present’s  , Absents etc
-Admin should be able to create a Complete System Report FROM and TO dates of all attendances
-Add up grading System, if user attended 26 Days he should have A grade for other grades setting add up a module. E.g.  10 Days = D grade etc. etc. in admin panal
-
 
 # Output
 
-Work is currently underway on the Admin Module, and it will be available very soon.
 
+
+
+![admin123](https://github.com/haristahir58/Attendance-Management-System-/assets/80643073/c74f0c0a-6afd-438e-85a1-fc6487234d4b)
+
+![updateasdmin](https://github.com/haristahir58/Attendance-Management-System-/assets/80643073/12495e0e-8bef-451a-a36c-8d9878ae374a)
+
+![image](https://github.com/haristahir58/Attendance-Management-System-/assets/80643073/8873510f-53bc-497b-83a0-526af5f56543)
 
